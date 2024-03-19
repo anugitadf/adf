@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azure-datafact"
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=@{linkedService().ServerName};Initial Catalog=@{linkedService().Dbname};User ID=@{linkedService().Username};Password=@{linkedService().password}"
+		},
+		"Azurelsblob_connectionString": {
+			"value": ""
+		},
+		"Dynamic LS_connectionString": {
+			"value": ""
+		},
+		"LS_AZURESQL_connectionString": {
+			"value": ""
+		},
+		"LS_BLOB_connectionString": {
+			"value": ""
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "azure-datafact",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fde8a64d-58f0-4b6e-9b39-a9fda6b49ac9",
+		"tenantId": "a52ac7be-f71b-43f4-afb7-9c9fb9d3f1f5"
+	}
+}
